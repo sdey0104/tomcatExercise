@@ -4,8 +4,7 @@
 
 <h3>Welcome to Jenkins! We are working on Code Pipeline version 2</h3>
 
-<p> This is change is to verify the Stage vs Production</p>
-<p> Some dummy changes</p>
+<p>The deployment via Jenkins is successful.</p>
 
 </body>
 </html>
