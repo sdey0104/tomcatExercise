@@ -10,7 +10,7 @@ Sourav Dey
 
 </h3>
 
-<p>The deployment via Jenkins is successful by jenkins job from the rocker</p>
+<p>CODE DPLOYED  TO PROD</p>
 
 </body>
 </html>
