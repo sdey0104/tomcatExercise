@@ -24,5 +24,12 @@ pipeline {
             }
 
         }
+
+        stage('Deploy in staging area') { 
+                steps{
+
+                    build job : 'Deploy to Staging env'
+                }
+        }
     }
 } 
