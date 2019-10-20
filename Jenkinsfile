@@ -38,7 +38,7 @@ pipeline {
                     input message: 'Approve PRODUCTION Deployment'
                 }
 
-                build job:'Deploy To Prod through Pipeline'
+                build job :'Deploy To Prod through Pipeline'
             }
 
             post{
@@ -46,7 +46,7 @@ pipeline {
                     echo 'Deployed to prod successful'
                 }
 
-                faliure{
+                failure{
                     echo 'unsuccessful'
                 }
             }
