@@ -43,11 +43,11 @@ pipeline {
 
             post{
                 success{
-                    echo 'Deployed to prod'
+                    echo 'Deployed to prod successful'
                 }
 
                 faliure{
-                    echo 'Deployemt faliure'
+                    echo 'unsuccessful'
                 }
             }
         }
