@@ -6,7 +6,7 @@ pipeline {
             steps{
                
               //  echo 'Initiaziling the code file'
-                bat 'mvn clean packa'
+                bat 'mvn clean package'
 
                 // for macan linux sh mvn clean package''
               
