@@ -21,13 +21,15 @@ pipeline {
             steps{
                 echo 'Hellow World'
             }
+           
+        }
 
-              stage('Deploy'){
+        
+        stage('Deploy'){
             steps{
                 echo 'Artifacts'
             }
-        }
-
+        }    
         // stage ('Build Servlet Project') {
         //     steps {
         //         /* Maven step */
