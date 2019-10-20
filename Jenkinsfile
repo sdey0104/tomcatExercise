@@ -21,6 +21,11 @@ pipeline {
             steps{
                 echo 'Hellow World'
             }
+
+              stage('Deploy'){
+            steps{
+                echo 'Artifacts'
+            }
         }
 
         // stage ('Build Servlet Project') {
