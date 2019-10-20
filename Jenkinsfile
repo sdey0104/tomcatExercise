@@ -31,5 +31,25 @@ pipeline {
                     build job : 'Deploy to Staging env'
                 }
         }
+
+        stage('Deploy in production area'){
+            steps{
+                timeout(time: 5, unit: 'Days'){
+                    input message: 'Approve PRODUCTION Deployment'
+                }
+
+                build job:'Deploy To Prod through Pipeline'
+            }
+
+            post{
+                success{
+                    echo 'Deployed to prod'
+                }
+
+                faliure{
+                    echo 'Deployemt faliure'
+                }
+            }
+        }
     }
 } 
