@@ -17,7 +17,7 @@
 	<div class="navColumn"> 
     	<div class="overview">
         	This is where you place either you company slogan, motto, or any keyword rich information.   This information will be the first 'content' that will be read by the search engines, so try to make it good ;-)   Also keep in mind that this will be true for every page, so it might be a good idea to change this area for each page.  You might say that this section is strategically placed for that purpose, so use it carefully.        </div>
-    	<div class="link"><a href="http://google.com">Home</a></div>
+    	<div class="link"><a href="http://google.com">Homjkbjbke</a></div>
         <div class="link"><a href="http://google.com">About Us</a></div>
         <div class="link"><a href="http://google.com">SOurav</a></div>
         <div class="link"><a href="http://google.com">Sonika</a></div>
