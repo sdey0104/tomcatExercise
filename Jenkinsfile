@@ -7,29 +7,41 @@ pipeline {
 
     stages {
 
-        stage('Initialize'){
-
+        stage('Build'){
+//you can name any thing
             steps{
                
                 echo "Initiaziling the code file"
+                bat 'mvn clean package'
+
+                // for macan linux sh mvn clean package''
               
             }
 
         }
 
-        stage('Build'){
-            steps{
-                echo 'Hellow World'
+        post{
+            success{
+                echo 'Now archiving'
+
+                archiveArtifacts artifacts : '**/*.war'
+
             }
-           
         }
 
-        
-        stage('Deploy'){
-            steps{
-                echo 'Artifacts'
-            }
-        }    
+        // stage('Build'){
+        //     steps{
+        //         echo 'Hellow World'
+        //     }
+           
+        // }
+
+
+        // stage('Deploy'){
+        //     steps{
+        //         echo 'Artifacts'
+        //     }
+        // }    
         // stage ('Build Servlet Project') {
         //     steps {
         //         /* Maven step */

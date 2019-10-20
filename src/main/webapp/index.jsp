@@ -17,13 +17,13 @@
 	<div class="navColumn"> 
     	<div class="overview">
         	This is where you place either you company slogan, motto, or any keyword rich information.   This information will be the first 'content' that will be read by the search engines, so try to make it good ;-)   Also keep in mind that this will be true for every page, so it might be a good idea to change this area for each page.  You might say that this section is strategically placed for that purpose, so use it carefully.        </div>
-    	<div class="link"><a href="http://www.bryantsmith.com">Home</a></div>
-        <div class="link"><a href="http://www.bryantsmith.com">About Us</a></div>
-        <div class="link"><a href="http://www.bryantsmith.com">Services</a></div>
-        <div class="link"><a href="http://www.bryantsmith.com">Portfolio</a></div>
-        <div class="link"><a href="http://www.bryantsmith.com">Web Programming</a></div>        
-        <div class="link"><a href="http://www.bryantsmith.com">Search Engine Optimization</a></div>
-        <div class="link"><a href="http://www.bryantsmith.com">Contact Us</a></div>
+    	<div class="link"><a href="http://google.com">Home</a></div>
+        <div class="link"><a href="http://google.com">About Us</a></div>
+        <div class="link"><a href="http://google.com">Services</a></div>
+        <div class="link"><a href="http://google.com">Portfolio</a></div>
+        <div class="link"><a href="http://google.com">Web Programming</a></div>        
+        <div class="link"><a href="http://google.com">Search Engine Optimization</a></div>
+        <div class="link"><a href="http://google.com">Contact Us</a></div>
         
 <div id="navBottom"></div>
     </div>
@@ -91,7 +91,7 @@
 
 
 	<!-- PLEASE LEAVE THIS AT THE END OF YOUR LAST BOX -->
-    <h4><a href="http://www.aszx.net">web development</a> by <a href="http://www.bryantsmith.com">bryant smith</a></h4>
+    <h4><a href="http://www.aszx.net">web development</a> by <a href="http://google.com">bryant smith</a></h4>
     <!-- PLEASE LEAVE THIS AT THE END OF YOUR LAST BOX -->
 
 
